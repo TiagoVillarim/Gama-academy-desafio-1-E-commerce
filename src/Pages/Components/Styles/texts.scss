@@ -1,0 +1,99 @@
+.promo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 500px;
+  font-size: 36px;
+  animation-name: Promo;
+  animation-duration: 0.6s;
+}
+
+@keyframes Promo {
+  from{transform: translateX(-100px);}
+  to{transform: translateX(0px);}
+}
+
+.black-logo {
+  display: flex;
+  width: 220px;
+  height: 220px;
+  border-radius: 100px;
+  background-color: rgb(255, 0, 0);
+  margin-left: 1030px;
+  margin-top: -300px;
+  animation-name: logo;
+  animation-duration: 0.9s;
+}
+
+@keyframes logo {
+  from{transform: translateX(100px);}
+  to{transform: translateX(0px);}
+}
+
+.spam {
+  display: flex;
+  margin-left: 100px;
+  font-size: 25px;
+  margin-top: 100px;
+  margin-left: 430px;
+  margin-bottom: -35px;
+  animation-duration: 0.5s;
+  animation-name: Arrow;
+}
+
+
+.olhar-catalogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 17px;
+  animation-name: Arrow;
+  animation-duration: 0.9s;
+}
+
+.arrow-down {
+  display: flex;
+  margin-left: 680px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+  transition: 0.3s;
+  animation-name: Arrow;
+  animation-duration: 0.9s;
+}
+
+@keyframes Arrow {
+  from{transform: translateY(100px);}
+  to{transform: translateY(0px);}
+}
+
+.arrow-down:hover {
+  height: 35px;
+  padding-top: 10px;
+
+}
+
+.arrow-down-2 {
+  display: flex;
+  margin-left: 680px;
+  margin-top: 90px;
+  font-size: 30px;
+  color: white;
+  transition: 0.3s;
+}
+.arrow-down-2:hover {
+  height: 35px;
+  padding-top: 10px;
+
+}
+
+.strong {
+  color: red;
+  font-size: 50px;
+}
+
+
+
+
