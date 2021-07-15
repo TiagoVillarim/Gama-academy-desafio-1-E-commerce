@@ -11,14 +11,16 @@ export default function SectionOne(){
       <section id="inicio" className="section--one-container">
         <header className='container-header'>
             <a className="sectionOneHeader"> - My Timepiece - </a>
-            <a href="#visitar-catálogo" className="go-to-end">carrinho<FaShoppingCart className="cart"/></a>  
+            <a>carrinho<FaShoppingCart className="cart"/></a>  
         </header>
-
-        <h1 className="promo-container">
-          <strong>
-            Chegou a hora da super promoção na BLACK FRIDAY !<br/><br/>todos os produtos com até <strong className="strong">80% OFF</strong><br/><br/>
-          </strong>
-        </h1>
+        
+        <div>
+          <h1 className="promo-container">
+            <strong>
+              Chegou a hora da super promoção na BLACK FRIDAY !<br/><br/>todos os produtos com até <strong className="strong">80% OFF</strong><br/><br/>
+            </strong>
+          </h1>
+        </div>
         
         <h3 className="spam">
           Compre seu relógio com desconto nesta Black Friday !

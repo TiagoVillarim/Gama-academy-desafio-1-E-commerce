@@ -75,3 +75,10 @@
 .back-top:hover {
   border-bottom: 1px solid white;
 }
+
+@media(max-width:900px){
+  .login-section {
+    margin-right: 0;
+    width: 370px;
+  }
+}

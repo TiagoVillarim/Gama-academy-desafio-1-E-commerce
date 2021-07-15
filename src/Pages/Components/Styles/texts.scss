@@ -10,8 +10,8 @@
 }
 
 @keyframes Promo {
-  from{transform: translateX(-100px);}
-  to{transform: translateX(0px);}
+  from{transform: translateY(100px);}
+  to{transform: translateY(0px);}
 }
 
 .black-logo {
@@ -92,6 +92,12 @@
 .strong {
   color: red;
   font-size: 50px;
+}
+
+@media(max-width:900px){
+  .black-logo {
+    display: none;
+  }
 }
 
 
