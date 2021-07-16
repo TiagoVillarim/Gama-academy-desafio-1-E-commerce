@@ -1,4 +1,4 @@
-import headerStyle from '../Styles/header.css';
+import headerStyle from '../Styles/header.scss';
 
 export default function Header(){
   return(

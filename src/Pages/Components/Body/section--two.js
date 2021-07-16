@@ -3,7 +3,7 @@ import logo1 from '../../../assets/image/rolex1.jpg';
 import logo2 from '../../../assets/image/rolex2.jpg';
 import logo3 from '../../../assets/image/rolex3.jpg';
 import logo4 from '../../../assets/image/rolex4.jpg';
-import catalogoStyle from '../Styles/catalogo.css';
+import catalogoStyle from '../Styles/catalogo.scss';
 
 
 

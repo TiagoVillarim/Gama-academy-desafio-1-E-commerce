@@ -20,7 +20,7 @@
   height: 220px;
   border-radius: 100px;
   background-color: rgb(255, 0, 0);
-  margin-left: 1030px;
+  margin-left: 900px;
   margin-top: -300px;
   animation-name: logo;
   animation-duration: 0.9s;
@@ -95,6 +95,13 @@
   font-size: 50px;
 }
 
+/*RESPONSIVIDADE*/
+
+@media only screen and (max-width: 1000px){
+  .black-logo {
+    margin-right: 5000px ;
+  }
+}
 
 
 
