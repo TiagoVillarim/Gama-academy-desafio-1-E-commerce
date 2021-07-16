@@ -1,5 +1,7 @@
-This is a SPA project made during the hiring coders by gama academy, it is an E-commerce promotional web landing page of a watch store;
-Projeto SPA feito durante o hiring coders da gama academy, este é uma página web de E-commerce de relógios.
+This is a project made during the hiring coders by gama academy, it is an E-commerce promotional web landing page of a watch store;
+Projeto feito durante o hiring coders da gama academy, este é uma página web de E-commerce de relógios.
+
+=>URL Link: https://my-timepiece.netlify.app
 
 
 ![image](https://user-images.githubusercontent.com/64990900/125823760-ef5e242b-63a5-42dd-88ba-296d964cf314.png)
