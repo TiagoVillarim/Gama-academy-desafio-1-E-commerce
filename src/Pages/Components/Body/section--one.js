@@ -2,8 +2,8 @@
 import { FaAngleDoubleDown } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa';
 import logo from '../../../assets/image/friday.png';
-import sectionTwoStyle from '../Styles/body.scss';
-import textStyle from '../Styles/texts.scss';
+import sectionTwoStyle from '../Styles/body.css';
+import textStyle from '../Styles/texts.css';
 
 export default function SectionOne(){
   return(

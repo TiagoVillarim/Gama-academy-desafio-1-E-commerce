@@ -3,8 +3,8 @@ import Header from '../Header/header';
 import InstagramLogo from '../../../assets/image/instagram.png';
 import WhatsAppLogo from '../../../assets/image/wppLogo.png';
 import GmailLogo from '../../../assets/image/Gmail-Logo.png'
-import mainStyle from '../Styles/login.scss';
-import footerStyle from '../Styles/footer.scss';
+import mainStyle from '../Styles/login.css';
+import footerStyle from '../Styles/footer.css';
 
 
 export default function Main(){

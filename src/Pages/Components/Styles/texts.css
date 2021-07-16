@@ -27,8 +27,8 @@
 }
 
 @keyframes logo {
-  from{transform: translateX(100px);}
-  to{transform: translateX(0px);}
+  from{transform: translateX(100px)}
+  to{transform: translateX(0px)}
 }
 
 .spam {
@@ -36,7 +36,7 @@
   margin-left: 100px;
   font-size: 25px;
   margin-top: 100px;
-  margin-left: 430px;
+  margin-left: 390px;
   margin-bottom: -35px;
   animation-duration: 0.5s;
   animation-name: Arrow;
@@ -49,6 +49,7 @@
   justify-content: center;
   margin-top: 150px;
   font-size: 17px;
+  padding-bottom: 30px;
   animation-name: Arrow;
   animation-duration: 0.9s;
 }
@@ -60,13 +61,14 @@
   font-size: 30px;
   color: white;
   transition: 0.3s;
+  margin-bottom: 30px;
   animation-name: Arrow;
   animation-duration: 0.9s;
 }
 
 @keyframes Arrow {
-  from{transform: translateY(100px);}
-  to{transform: translateY(0px);}
+  from{transform: translateY(100px)}
+  to{transform: translateY(0px)}
 }
 
 .arrow-down:hover {

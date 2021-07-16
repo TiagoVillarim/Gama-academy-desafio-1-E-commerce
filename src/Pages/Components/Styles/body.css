@@ -10,8 +10,8 @@
 }
 
 @keyframes headerAppear {
-  from{transform: translateX(-100px);}
-  to{transform: translateX(0px);}
+  from{transform: translateX(-100px)}
+  to{transform: translateX(0px)}
 }
 
 .container-header {
@@ -59,8 +59,8 @@
 }
 
 @keyframes Appear {
-  from{opacity: 50%;}
-  to{opacity: 100%;}
+  from{opacity: 50%}
+  to{opacity: 100%}
 }
 
 .section--two-container {
@@ -109,7 +109,6 @@
   cursor: default;
 }
 
-//parte responsiva 
 
 
 
