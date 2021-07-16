@@ -72,9 +72,8 @@
 }
 
 .arrow-down:hover {
-  height: 35px;
+  height: 20px;
   padding-top: 10px;
-
 }
 
 .arrow-down-2 {
@@ -86,7 +85,7 @@
   transition: 0.3s;
 }
 .arrow-down-2:hover {
-  height: 35px;
+  height: 20px;
   padding-top: 10px;
 
 }
