@@ -55,7 +55,7 @@
 
 .arrow-down {
   display: flex;
-  margin-left: 680px;
+  margin-left: 670px;
   margin-top: 20px;
   font-size: 30px;
   color: white;
@@ -71,7 +71,7 @@
 }
 
 .arrow-down:hover {
-  height: 20px;
+  transform: scale(0.9);
   padding-top: 10px;
 }
 
@@ -84,7 +84,7 @@
   transition: 0.3s;
 }
 .arrow-down-2:hover {
-  height: 20px;
+  transform: scale(0.9);
   padding-top: 10px;
 
 }
@@ -115,13 +115,13 @@
   }
 
   .arrow-down {
-    margin-left: 630px;
+    margin-left: 622px;
     margin-top: 5px;
   }
 
   .arrow-down-2 {
-    margin-left: 625px;
-    margin-top: 20px;
+    margin-left: 620px;
+    margin-top: 30px;
   } 
 }
 
@@ -145,12 +145,12 @@
   }
 
   .arrow-down {
-    margin-left: 510px;
-    margin-top: -10px;
+    margin-left: 495px;
+    margin-top: -15px;
   }
 
   .arrow-down-2 {
-    margin-left: 500px;
+    margin-left: 495px;
     margin-top: 30px;
   }
 }
