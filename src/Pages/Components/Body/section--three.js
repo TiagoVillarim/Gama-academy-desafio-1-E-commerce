@@ -20,7 +20,7 @@ export default function SectionThree(){
               <img src={logo5} className="img-1"/>
               <p className="text-section1">
                - De: R$559,99 -<br/><br/>
-               - Por: R$339,39 -
+               <strong className="promotional-price">- Por: R$339,39 -</strong>
                <strong className="off-1">65% OFF</strong>
               </p>
             </div>
@@ -29,7 +29,7 @@ export default function SectionThree(){
               <img src={logo6} className="img-2"/>
               <p className="text-section2">
                 - De: R$559,99 -<br/><br/>
-                - Por: R$339,99 -
+                <strong className="promotional-price">- Por: R$339,39 -</strong>
                 <strong className="off-2">75% OFF</strong>             
               </p>
             </div>
@@ -38,7 +38,7 @@ export default function SectionThree(){
               <img src={logo7} className="img-3"/>
               <p className="text-section3">
                - De: R$559,99 -<br/><br/>
-               - Por: R$339,99 -
+               <strong className="promotional-price">- Por: R$339,39 -</strong>
                <strong className="off-3">55% OFF</strong>         
               </p>
             </div>
@@ -47,7 +47,7 @@ export default function SectionThree(){
               <img src={logo8} className="img-4"/>
               <p className="text-section4">
                 - De: R$559,99 -<br/><br/>
-                - Por: R$339,99 -
+                <strong className="promotional-price">- Por: R$339,39 -</strong>
                 <strong className="off-4">45% OFF</strong> 
               </p>
             </div>

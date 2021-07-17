@@ -97,27 +97,31 @@
 /*RESPONSIVIDADE*/
 
 @media(max-width: 1300px){
+  .promo-container {
+    margin-left: 30px;
+  }
+
   .black-logo {
-    margin-left: 900px ;  
+    margin-left: 950px ;  
   }
 
   .spam {
     margin-left: 380px;
-    margin-top: 50px;
+    margin-top: -20px;
   }
 
   .olhar-catalogo {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .arrow-down {
-    margin-left: 640px;
-    margin-top: 10px;
+    margin-left: 630px;
+    margin-top: 5px;
   }
 
   .arrow-down-2 {
-    margin-left: 640px;
-    margin-top: 50px;
+    margin-left: 625px;
+    margin-top: 20px;
   } 
 }
 
