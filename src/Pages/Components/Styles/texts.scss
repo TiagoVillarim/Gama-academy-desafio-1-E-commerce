@@ -55,12 +55,10 @@
 
 .arrow-down {
   display: flex;
-  margin-left: 670px;
-  margin-top: 20px;
+  margin: 20px auto 30px auto;
   font-size: 30px;
   color: white;
   transition: 0.3s;
-  margin-bottom: 30px;
   animation-name: Arrow;
   animation-duration: 0.9s;
 }
@@ -77,8 +75,7 @@
 
 .arrow-down-2 {
   display: flex;
-  margin-left: 680px;
-  margin-top: 90px;
+  margin: 90px auto 0 auto;
   font-size: 30px;
   color: white;
   transition: 0.3s;
@@ -115,12 +112,10 @@
   }
 
   .arrow-down {
-    margin-left: 622px;
     margin-top: 5px;
   }
 
   .arrow-down-2 {
-    margin-left: 620px;
     margin-top: 30px;
   } 
 }
@@ -145,12 +140,10 @@
   }
 
   .arrow-down {
-    margin-left: 495px;
     margin-top: -15px;
   }
 
   .arrow-down-2 {
-    margin-left: 495px;
     margin-top: 30px;
   }
 }
