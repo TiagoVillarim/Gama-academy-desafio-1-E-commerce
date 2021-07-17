@@ -6,3 +6,9 @@
   margin-bottom: -30px;
   font-size: 40px;
 }
+
+@media(max-width:1030px){
+  .header-title {
+    margin-right: 30px;
+  }
+}

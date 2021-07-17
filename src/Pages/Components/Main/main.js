@@ -12,9 +12,13 @@ export default function Main(){
   const [inputEmail, setInputEmail] = useState([''])
 
   function cadastrarEmail (){
-    localStorage.setItem("email", JSON.stringify(inputEmail))
-    setInputEmail("")
-    alert(`Seu email ${inputEmail} foi salvo com sucesso!`)
+    if( inputEmail === ""){
+      alert("Opa! você não preencheu o email, tente novamente")
+    }else{
+      localStorage.setItem("email", JSON.stringify(inputEmail))
+      alert(`Seu email ${inputEmail} foi salvo com sucesso!`)
+      setInputEmail("")
+    }
   }
 
   return(
@@ -30,8 +34,8 @@ export default function Main(){
           <a href="#inicio" className="back-top">Voltar ao início</a>
           <footer className="footer-container">
             <p className="contato-text">Contato:</p>
-            <img src={InstagramLogo} className="footerImage"/>@ProjetoGamaAcademy_hiringCoders
-            <img src={WhatsAppLogo} className="footerImage"/>(99)999999-99
+            <img src={InstagramLogo} className="footerImage"/>@ProjetoGamaAcademy_hiringCoders  
+            <img src={WhatsAppLogo} className="footerImage"/>(99)999999
             <img src={GmailLogo} className="footerImage-gmail"/>gmail@gmail.com
           </footer>
         </section>

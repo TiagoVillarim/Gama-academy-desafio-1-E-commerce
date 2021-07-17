@@ -175,3 +175,69 @@
   padding-top: 20px;
   color: red;
 }
+
+@media(max-width:1300px){
+  .div-section1 {
+    height: 290px;
+    width: 200px;
+  }
+
+  .img-1 {
+    width: 200px;
+    height: 130;
+  }
+
+  .text-section1 {
+    margin-bottom: 20px;
+  }
+
+  .div-section2 {
+    height: 290px;
+    width: 200px;
+  }
+
+  .img-2 {
+    width: 200px;
+    height: 130;
+  }
+
+  .text-section2 {
+    margin-bottom: 20px;
+  }
+
+  .div-section3 {
+    height: 290px;
+    width: 200px;
+  }
+
+  .img-3 {
+    width: 200px;
+    height: 130;
+  }
+
+  .text-section3 {
+    margin-bottom: 20px;
+  }
+
+  .div-section4 {
+    height: 290px;
+    width: 200px;
+  }
+
+  .img-4 {
+    width: 200px;
+    height: 130;
+  }
+
+  .text-section4 {
+    margin-bottom: 20px;
+  }
+}
+
+@media(max-width:1030px){
+  .catalogo-container {
+    padding-right: 30px;
+    margin-left: -120px;
+  }
+  
+}

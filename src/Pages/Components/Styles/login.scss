@@ -76,3 +76,23 @@
   border-bottom: 1px solid white;
 }
 
+@media(max-width:1300px){
+  .login-section {
+    margin-top: 130px;
+  }
+
+  .back-top {
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width:1030px){
+  .login-section {
+    margin-left: 200px;
+  }
+
+  .back-top {
+    margin-right: 80px;
+  }
+}
+
