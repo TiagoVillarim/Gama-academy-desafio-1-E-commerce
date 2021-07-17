@@ -9,10 +9,10 @@ import footerStyle from '../Styles/footer.scss';
 
 export default function Main(){
 
-  const [inputEmail, setInputEmail] = useState([''])
+  const [inputEmail, setInputEmail] = useState('')
 
   function cadastrarEmail (){
-    if( inputEmail === ""){
+    if( inputEmail.length < 5 || inputEmail === undefined){
       alert("Opa! você não preencheu o email, tente novamente")
     }else{
       localStorage.setItem("email", JSON.stringify(inputEmail))
