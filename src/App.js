@@ -1,11 +1,11 @@
 import './App.css';
 import style from '../src/Global.scss';
-import Home from '../src/Pages/Components/Home/home';
+import Routes from './Pages/routes';
 
 function App() {
   return (
     <div>
-      <Home/>
+      <Routes/>
     </div>
   );
 }

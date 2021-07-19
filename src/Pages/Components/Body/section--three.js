@@ -16,8 +16,8 @@ export default function SectionThree(){
 
 
       <section className="catalogo-container">  
-            <div className="div-section1">
-              <img src={logo5} className="img-1"/>
+            <div id="05" className="div-section1">
+              <img id="05" src={logo5} className="img-1"/>
               <p className="text-section1">
                - De: R$559,99 -<br/><br/>
                <strong className="promotional-price">- Por: R$339,39 -</strong>
@@ -25,8 +25,8 @@ export default function SectionThree(){
               </p>
             </div>
             
-            <div className="div-section2">
-              <img src={logo6} className="img-2"/>
+            <div id="06" className="div-section2">
+              <img id="06" src={logo6} className="img-2"/>
               <p className="text-section2">
                 - De: R$559,99 -<br/><br/>
                 <strong className="promotional-price">- Por: R$339,39 -</strong>
@@ -34,8 +34,8 @@ export default function SectionThree(){
               </p>
             </div>
 
-            <div className="div-section3">
-              <img src={logo7} className="img-3"/>
+            <div id="07" className="div-section3">
+              <img id="07" src={logo7} className="img-3"/>
               <p className="text-section3">
                - De: R$559,99 -<br/><br/>
                <strong className="promotional-price">- Por: R$339,39 -</strong>
@@ -43,8 +43,8 @@ export default function SectionThree(){
               </p>
             </div>
 
-            <div className="div-section4">
-              <img src={logo8} className="img-4"/>
+            <div id="08" className="div-section4">
+              <img id="08" src={logo8} className="img-4"/>
               <p className="text-section4">
                 - De: R$559,99 -<br/><br/>
                 <strong className="promotional-price">- Por: R$339,39 -</strong>

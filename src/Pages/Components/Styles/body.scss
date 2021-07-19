@@ -31,17 +31,38 @@
   opacity: 0.8;
 }
 
-
-.link-back {
+.cadastro {
   display: flex;
-  color: rgb(27, 27, 27);
-  text-decoration: none;
-  margin-right: 30px;
+  align-items: center;
+  padding-left: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+}
+
+.carrinho {
+  align-items: center;
+  border-right: 1px solid;
+  padding-right: 15px;
+  animation-name: cart;
+  animation-duration: 0.7s;
+  cursor: pointer;
 }
 
 .cart {
   display: flex;
-  margin-left: 5px;
+  margin: -20px 0 0 -25px;
+  animation-name: cart;
+  animation-duration: 0.7s;
+}
+
+@keyframes cart{
+  from{transform: translateX(-100px)}
+  to{transform: translateX(0px);}
 }
 
 .section--one-container {

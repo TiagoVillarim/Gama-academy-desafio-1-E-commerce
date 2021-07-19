@@ -11,7 +11,10 @@ export default function SectionOne(){
       <section id="inicio" className="section--one-container">
         <header className='container-header'>
             <a className="sectionOneHeader"> - My Timepiece - </a>
-            <a>carrinho<FaShoppingCart className="cart"/></a>  
+            <div className="cart-container">
+              <a className="carrinho">carrinho<FaShoppingCart className="cart"/></a> 
+              <a className="cadastro">cadastrar</a> 
+            </div>
         </header>
         
         <div>

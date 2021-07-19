@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import Header from '../Header/header';
 import InstagramLogo from '../../../assets/image/instagram.png';
 import WhatsAppLogo from '../../../assets/image/wppLogo.png';
 import GmailLogo from '../../../assets/image/Gmail-Logo.png'
 import mainStyle from '../Styles/login.scss';
 import footerStyle from '../Styles/footer.scss';
+import headerStyle from '../Styles/header.scss';
 
 
 export default function Main(){
@@ -24,7 +24,9 @@ export default function Main(){
   return(
     <>
         <section id="end" className="container-main">
-          <Header/>
+          <header className="header">
+            <h1 className='header-title'> - My Timepiece - </h1>
+          </header>
           <div className="login-section">
             <h3 className="email-spam">Cadastre o seu email no campo abaixo para receber todas as promoções da BLACK FRIDAY!</h3>
             <input type="text" id='inputEmail' placeholder="Digite o seu Email:" className="input-email"
