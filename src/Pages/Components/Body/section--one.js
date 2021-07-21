@@ -13,7 +13,7 @@ export default function SectionOne(){
             <a className="sectionOneHeader"> - My Timepiece - </a>
             <div className="cart-container">
               <a className="carrinho">carrinho<FaShoppingCart className="cart"/></a> 
-              <a className="cadastro">cadastrar</a> 
+              <a className="cadastro" href="#end">cadastrar</a> 
             </div>
         </header>
         

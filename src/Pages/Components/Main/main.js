@@ -9,29 +9,71 @@ import headerStyle from '../Styles/header.scss';
 
 export default function Main(){
 
-  const [inputEmail, setInputEmail] = useState('')
+  const [inputName, setInputName] = useState('');
+  const [inputEmail, setInputEmail] = useState('');
+  const [inputState, setInputState] = useState('');
+  const [inputCity, setInputCity] = useState('');
+  const [inputAddress, setInputAddress] = useState('');
+  const [inputID, setInputID] = useState('');
 
-  function cadastrarEmail (){
-    if( inputEmail.length < 5 || inputEmail === undefined){
-      alert("Opa! você não preencheu o email, tente novamente")
-    }else{
-      localStorage.setItem("email", JSON.stringify(inputEmail))
-      alert(`Seu email ${inputEmail} foi salvo com sucesso!`)
-      setInputEmail("")
-    }
+
+
+
+
+   function cadastrar (){
+     if(inputName < 5 || inputName === undefined ||
+        inputEmail < 5 || inputEmail === undefined ||
+        inputState < 3 || inputState === undefined ||
+        inputCity < 5 || inputCity === undefined ||
+        inputAddress < 5 || inputAddress === undefined ||
+        inputID < 5 || inputID === undefined){
+          alert("Opa, algo deu errado! verifique o seu cadastro e tente novamente")
+
+      }else{
+        localStorage.setItem("ClientName", JSON.stringify(inputName));
+        localStorage.setItem("ClientEmail", JSON.stringify(inputEmail));
+        localStorage.setItem("ClientState", JSON.stringify(inputState));
+        localStorage.setItem("ClientCity", JSON.stringify(inputCity));
+        localStorage.setItem("ClientAddress", JSON.stringify(inputAddress));
+        localStorage.setItem("ClientID", JSON.stringify(inputID));
+        alert(`Seu cadastro foi salvo com sucesso!`)
+        setInputEmail("");
+        setInputName("");
+        setInputState("");
+        setInputCity("");
+        setInputAddress("");
+        setInputID("");
+      }
   }
 
   return(
     <>
         <section id="end" className="container-main">
           <header className="header">
-            <h1 className='header-title'> - My Timepiece - </h1>
+            <h1 className='header-title'> - Cadastre-se - </h1>
           </header>
           <div className="login-section">
-            <h3 className="email-spam">Cadastre o seu email no campo abaixo para receber todas as promoções da BLACK FRIDAY!</h3>
-            <input type="text" id='inputEmail' placeholder="Digite o seu Email:" className="input-email"
+            <h3 className="email-spam">Faça o seu cadastro nos campos logo abaixo!</h3>
+
+            <input type="text" key="NAME" id="inputName" placeholder="Digite o seu nome completo:" className="inputs"
+                  value={inputName} onChange={event => setInputName(event.target.value)}/>
+
+            <input type="text" key="EMAIL" id='inputEmail' placeholder="Digite o seu Email:" className="inputs"
                   value={inputEmail} onChange={event => setInputEmail(event.target.value)}/>
-            <a className="button-cadastrar" onClick={cadastrarEmail}>cadastrar</a>
+
+            <input type="text" key="STATE" id="inputState" placeholder="Digite o seu estado:" className="inputs"
+                  value={inputState} onChange={event => setInputState(event.target.value)}/> 
+
+            <input type="text" key="CITY" id="inputCity" placeholder="Digite a sua cidade:" className="inputs"
+                  value={inputCity} onChange={event => setInputCity(event.target.value)}/>
+
+            <input type="text" key="ADDRESS" id="inputAddress" placeholder="Digite o seu endereço:" className="inputs"
+                  value={inputAddress} onChange={event => setInputAddress(event.target.value)}/>
+
+            <input type="number" key="NUMBER" id="inputNumber" placeholder="Digite o seu CPF:" className="inputs"
+                  value={inputID} onChange={event => setInputID(event.target.value)}/>
+
+            <a className="button-cadastrar" onClick={cadastrar}>cadastrar</a>
           </div>
           <a href="#inicio" className="back-top">Voltar ao início</a>
           <footer className="footer-container">

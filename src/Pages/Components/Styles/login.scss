@@ -17,11 +17,11 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(236, 236, 236);
-  height: 200px;
+  height: 500px;
   width: 500px;
   border-radius: 10px;
   opacity: 0.8;
-  margin-top: 180px;
+  margin-top: 50px;
   margin-right: 600px;
 }
 
@@ -29,12 +29,11 @@
   color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 10px 27px;
-  margin-top: -12px;
+  margin-top: -20px;
 }
 
-.input-email {
+.inputs {
   outline: none;
   margin-top: 10px;
   width: 300px;
@@ -78,7 +77,12 @@
 
 @media(max-width:1300px){
   .login-section {
-    margin-top: 130px;
+    margin-top: 50px;
+    height: 400px;
+  }
+  
+  .inputs {
+    margin: 10px;
   }
 
   .back-top {
@@ -89,10 +93,21 @@
 @media(max-width:1030px){
   .login-section {
     margin-left: 200px;
+    margin-top: 50px;
+    height: 400px;
   }
 
   .back-top {
     margin-right: 80px;
+  }
+
+  .email-spam {
+    margin-top: -10px;
+    margin-bottom: 5px;
+  }
+
+  .inputs {
+    margin: 10px;
   }
 }
 

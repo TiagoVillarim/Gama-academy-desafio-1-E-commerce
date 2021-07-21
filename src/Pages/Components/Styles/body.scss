@@ -6,7 +6,7 @@
   margin-top: 0;
   animation-name: headerAppear;
   animation-duration: 0.8s;
-
+  cursor: default;
 }
 
 @keyframes headerAppear {
@@ -22,13 +22,6 @@
   transition: 0.6s;
   height: 90px;
   width: 100%;
-  
-}
-
-.container-header:hover {
-  background-color: rgb(211, 211, 211);
-  color: black;
-  opacity: 0.8;
 }
 
 .cadastro {
@@ -37,6 +30,10 @@
   padding-left: 15px;
   margin-top: 5px;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
+  animation-name: cart;
+  animation-duration: 0.7s;
 }
 
 .cart-container {
@@ -44,20 +41,22 @@
   align-items: center;
 }
 
+
+
 .carrinho {
   align-items: center;
   border-right: 1px solid;
   padding-right: 15px;
   animation-name: cart;
   animation-duration: 0.7s;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .cart {
   display: flex;
   margin: -20px 0 0 -25px;
   animation-name: cart;
-  animation-duration: 0.7s;
+  animation-duration: 0.7s; 
 }
 
 @keyframes cart{
