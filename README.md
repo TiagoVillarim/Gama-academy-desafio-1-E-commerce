@@ -10,7 +10,7 @@ funções do site => página de cadastro; página de produtos; página inicial d
 
 
 ![image](https://user-images.githubusercontent.com/64990900/126722905-9822cee9-b922-41ba-9556-a246ad74cd7c.png)
-![image](https://user-images.githubusercontent.com/64990900/126544339-3fce5894-bd84-4e8e-a7d6-633d135fdd5c.png)
-![image](https://user-images.githubusercontent.com/64990900/126544359-5b65bd2f-c75f-4602-8826-b42d0457c067.png)
-![image](https://user-images.githubusercontent.com/64990900/126544097-5ace9b4c-2c68-41bd-be08-296bf7611bcb.png)
+![image](https://user-images.githubusercontent.com/64990900/126722931-d1b222b8-15c9-44a5-bb22-010b0a9e531c.png)
+![image](https://user-images.githubusercontent.com/64990900/126722942-116a8d5e-fd8d-40eb-8efb-b05d1125f762.png)
+![image](https://user-images.githubusercontent.com/64990900/126722955-55ce2317-0f59-4553-a2d5-26fc37acd1a0.png)
 
