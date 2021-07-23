@@ -21,8 +21,8 @@
   width: 500px;
   border-radius: 10px;
   opacity: 0.8;
-  margin-top: 50px;
-  margin-right: 600px;
+  margin: 100px 600px 0 0;
+
 }
 
 .email-spam {
@@ -61,20 +61,6 @@
   color: white;
 }
 
-.back-top {
-  display: flex;
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-  margin-right: 220px;
-  margin-top: 20px;
-  border-bottom: 1px solid rgb(29, 29, 29);
-  transition: 0.4s;
-}
-.back-top:hover {
-  border-bottom: 1px solid white;
-}
-
 @media(max-width:1300px){
   .login-section {
     margin-top: 50px;
@@ -85,9 +71,6 @@
     margin: 10px;
   }
 
-  .back-top {
-    margin-bottom: 50px;
-  }
 }
 
 @media(max-width:1030px){
@@ -97,17 +80,13 @@
     height: 400px;
   }
 
-  .back-top {
-    margin-right: 80px;
-  }
-
   .email-spam {
     margin-top: -10px;
     margin-bottom: 5px;
   }
 
   .inputs {
-    margin: 10px;
+    margin: 7px;
   }
 }
 

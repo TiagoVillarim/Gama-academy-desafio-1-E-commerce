@@ -28,9 +28,7 @@ export default function SectionOne(){
           Compre seu relógio com desconto nesta Black Friday !
         </h3>
         
-        <div>
-          <img src={logo} alt="blackFridayLogo-1" className="black-logo"/>
-        </div>
+
 
         <div>
           <spam className="olhar-catalogo">Venha olhar o nosso catálogo logo abaixo</spam>    

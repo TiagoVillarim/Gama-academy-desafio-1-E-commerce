@@ -50,9 +50,9 @@ export default function Main(){
     <>
         <section id="end" className="container-main">
           <header className="header">
-            <h1 className='header-title'> - Cadastre-se - </h1>
+            <h1 data-aos="fade-right" data-aos-duration="1000"  className='header-title'> - Cadastre-se - </h1>
           </header>
-          <div className="login-section">
+          <div data-aos="fade-right" data-aos-duration="1400"  className="login-section">
             <h3 className="email-spam">Faça o seu cadastro nos campos logo abaixo!</h3>
 
             <input type="text" key="NAME" id="inputName" placeholder="Digite o seu nome completo:" className="inputs"
@@ -75,8 +75,8 @@ export default function Main(){
 
             <a className="button-cadastrar" onClick={cadastrar}>cadastrar</a>
           </div>
-          <a href="#inicio" className="back-top">Voltar ao início</a>
-          <footer className="footer-container">
+          
+          <footer  className="footer-container">
             <p className="contato-text">Contato:</p>
             <img src={InstagramLogo} className="footerImage"/>@ProjetoGamaAcademy_hiringCoders  
             <img src={WhatsAppLogo} className="footerImage"/>(99)999999
