@@ -23,12 +23,13 @@
   margin-left: 900px;
   margin-top: -300px;
   animation-name: logo;
-  animation-duration: 0.9s;
+  animation-duration: 3s;
 }
 
 @keyframes logo {
-  from{transform: translateX(100px)}
-  to{transform: translateX(0px)}
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+
 }
 
 .spam {

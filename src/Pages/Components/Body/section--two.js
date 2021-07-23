@@ -8,6 +8,14 @@ import catalogoStyle from '../Styles/catalogo.scss';
 
 
 export default function SectionTwo(){
+
+
+    const addCart = (event) => {
+      console.log(event.target.parentElement.innerText)
+      localStorage.setItem("produto", JSON.stringify(event.target.parentElement.innerText))
+    }
+
+
     return(
       <div id="visitar-catálogo" className="section--two-container">
         <header className="sectionHeaderTwo">
@@ -15,40 +23,40 @@ export default function SectionTwo(){
         </header>
 
         <section className="catalogo-container">  
-          <div id="01" className="div-section1">
+          <div className="div-section1">
             <img id="01" src={logo1} className="img-1"/>
             <p className="text-section1">
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
-              <strong className="off-1">65% OFF</strong>
             </p>
+            <a className="add-cart-1" onClick={event => addCart(event)}>adicionar ao carrinho</a>
           </div>
           
-          <div id="02" className="div-section2">
+          <div className="div-section2">
             <img id="02" src={logo2} className="img-2"/>
             <p className="text-section2">
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
-              <strong className="off-2">75% OFF</strong>            
             </p>
+            <a className="add-cart-2" onClick={event => addCart(event)}>adicionar ao carrinho</a>            
           </div>
 
-          <div id="03" className="div-section3">
+          <div className="div-section3">
             <img id="03" src={logo3} className="img-3"/>
             <p className="text-section3">
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
-              <strong className="off-3">55% OFF</strong>     
             </p>
+            <a className="add-cart-3" onClick={event => addCart(event)}>adicionar ao carrinho</a>     
           </div>
 
-          <div id="04" className="div-section4">
+          <div className="div-section4">
             <img id="04" src={logo4} className="img-4"/>
             <p className="text-section4">
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
-              <strong className="off-4">45% OFF</strong> 
             </p>
+            <a className="add-cart-4" onClick={event => addCart(event)}>adicionar ao carrinho</a> 
           </div>
         </section>
         <div>

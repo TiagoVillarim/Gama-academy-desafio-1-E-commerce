@@ -70,7 +70,7 @@ export default function Main(){
             <input type="text" key="ADDRESS" id="inputAddress" placeholder="Digite o seu endereço:" className="inputs"
                   value={inputAddress} onChange={event => setInputAddress(event.target.value)}/>
 
-            <input type="number" key="NUMBER" id="inputNumber" placeholder="Digite o seu CPF:" className="inputs"
+            <input type="text" key="ID" id="inputID" placeholder="Digite o seu CPF:" className="inputs"
                   value={inputID} onChange={event => setInputID(event.target.value)}/>
 
             <a className="button-cadastrar" onClick={cadastrar}>cadastrar</a>

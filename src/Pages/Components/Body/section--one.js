@@ -1,6 +1,5 @@
 
 import { FaAngleDoubleDown } from 'react-icons/fa';
-import { FaShoppingCart } from 'react-icons/fa';
 import logo from '../../../assets/image/friday.png';
 import sectionTwoStyle from '../Styles/body.scss';
 import textStyle from '../Styles/texts.scss';
@@ -12,8 +11,8 @@ export default function SectionOne(){
         <header className='container-header'>
             <a className="sectionOneHeader"> - My Timepiece - </a>
             <div className="cart-container">
-              <a className="carrinho">carrinho<FaShoppingCart className="cart"/></a> 
               <a className="cadastro" href="#end">cadastrar</a> 
+              <a className="carrinho">carrinho</a> 
             </div>
         </header>
         
