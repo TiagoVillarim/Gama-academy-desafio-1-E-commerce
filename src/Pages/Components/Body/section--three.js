@@ -6,12 +6,14 @@ import { FaAngleDoubleDown } from 'react-icons/fa';
 
 
 
-export default function SectionThree(cart, changeCart){
+export default function SectionThree({cart, callback}){
 
   const addCart = (event) => {
     console.log(event.target.id)
+    callback(1)
     const indice = event.target.id.slice(-1)[0]
     localStorage.setItem(`Produto:${indice}`, JSON.stringify(event.target.id))
+    alert("você adicionou um produto ao carrinho")
   }
 
 
