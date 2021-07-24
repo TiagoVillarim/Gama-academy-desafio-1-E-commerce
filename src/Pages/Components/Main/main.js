@@ -17,25 +17,35 @@ export default function Main(){
   const [inputID, setInputID] = useState('');
 
 
-
+  function validarInput() {
+    if(inputName < 5 || inputName === undefined ||
+      inputEmail < 5 || inputEmail === undefined ||
+      inputState < 3 || inputState === undefined ||
+      inputCity < 5 || inputCity === undefined ||
+      inputAddress < 5 || inputAddress === undefined ||
+      inputID < 5 || inputID === undefined){
+        alert("Opa, algo deu errado! verifique o seu cadastro e tente novamente")
+        return false;
+      }
+      return true;
+  }
 
 
    function cadastrar (){
-     if(inputName < 5 || inputName === undefined ||
-        inputEmail < 5 || inputEmail === undefined ||
-        inputState < 3 || inputState === undefined ||
-        inputCity < 5 || inputCity === undefined ||
-        inputAddress < 5 || inputAddress === undefined ||
-        inputID < 5 || inputID === undefined){
-          alert("Opa, algo deu errado! verifique o seu cadastro e tente novamente")
-
+      if(!validarInput()){
+        return
       }else{
-        localStorage.setItem("ClientName", JSON.stringify(inputName));
-        localStorage.setItem("ClientEmail", JSON.stringify(inputEmail));
-        localStorage.setItem("ClientState", JSON.stringify(inputState));
-        localStorage.setItem("ClientCity", JSON.stringify(inputCity));
-        localStorage.setItem("ClientAddress", JSON.stringify(inputAddress));
-        localStorage.setItem("ClientID", JSON.stringify(inputID));
+
+        let itensProduto = {
+          clientName: inputName,
+          clientEmail: inputEmail,
+          clientState: inputState,
+          clientCity: inputCity,
+          clientAddress: inputAddress,
+          clientID: inputID
+        }
+
+        localStorage.setItem("dadosCliente", JSON.stringify(itensProduto));
         alert(`Seu cadastro foi salvo com sucesso!`)
         setInputEmail("");
         setInputName("");

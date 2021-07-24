@@ -1,9 +1,12 @@
 
-import { FaAngleDoubleDown } from 'react-icons/fa';
+import { FaAngleDoubleDown, FaShoppingCart } from 'react-icons/fa';
 import sectionTwoStyle from '../Styles/body.scss';
 import textStyle from '../Styles/texts.scss';
 
-export default function SectionOne(){
+export default function SectionOne({cart, callback}){
+
+
+
   return(
     <>
       <section id="inicio" className="section--one-container">
@@ -11,7 +14,10 @@ export default function SectionOne(){
             <a className="sectionOneHeader"> - My Timepiece - </a>
             <div className="cart-container">
               <a className="cadastro" href="#end">cadastrar</a> 
-              <a className="carrinho">carrinho</a> 
+              <a className="carrinho">
+                carrinho<FaShoppingCart className="shopping-cart"/>
+                <span className="cart-value">{cart}</span>
+              </a> 
             </div>
         </header>
         

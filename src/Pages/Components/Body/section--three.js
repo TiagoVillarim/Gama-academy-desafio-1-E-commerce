@@ -6,7 +6,7 @@ import { FaAngleDoubleDown } from 'react-icons/fa';
 
 
 
-export default function SectionThree(){
+export default function SectionThree(cart, changeCart){
 
   const addCart = (event) => {
     console.log(event.target.id)

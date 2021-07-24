@@ -8,11 +8,12 @@ import catalogoStyle from '../Styles/catalogo.scss';
 
 
 
-export default function SectionTwo(){
+export default function SectionTwo({cart, callback}){
 
 
     const addCart = (event) => {
       console.log(event.target.id)
+      callback(1)
       const indice = event.target.id.slice(-1)[0]
       localStorage.setItem(`Produto:${indice}`, JSON.stringify(event.target.id))
       alert("você adicionou um produto ao carrinho")
