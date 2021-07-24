@@ -1,8 +1,8 @@
 
 .header-title {
   display: flex;
-  margin-right: 590px;
-  margin-top: 50px;
+  margin-right: 980px;
+  margin-top: 80px;
   margin-bottom: -30px;
   font-size: 40px;
   cursor: default;
@@ -11,12 +11,13 @@
 @media(max-width:1300px){
   .header-title {
     margin-top: 20px;
+    margin-right: 700px;
   }
 }
 
 @media(max-width:1030px){
   .header-title {
-    margin-right: 30px;
+    margin-right: 580px;
     margin-top: 30px;
   }
 }

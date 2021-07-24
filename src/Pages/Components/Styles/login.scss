@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-position: center;
-  background-image: url('../../../assets/image/wallpaper3.jpg');
+  background-image: url('../../../assets/image/wall.jpg');
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -16,12 +16,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(226, 226, 226);
   height: 500px;
-  width: 500px;
+  width: 450px;
   border-radius: 10px;
   opacity: 0.8;
-  margin: 100px 600px 0 0;
+  margin: 100px 800px 0 -200px;
 
 }
 
@@ -34,9 +34,10 @@
 }
 
 .inputs {
+  opacity: 0.5;
   outline: none;
   margin-top: 10px;
-  width: 300px;
+  width: 350px;
   border-radius: 15px;
   border: none;
   padding: 5px;
@@ -46,7 +47,7 @@
 .button-cadastrar {
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(231, 231, 231);
   color: black;
   margin-top: 10px;
   border-radius: 15px;
@@ -65,28 +66,40 @@
   .login-section {
     margin-top: 50px;
     height: 400px;
+    width: 300px;
+    margin-right: 500px;
   }
   
   .inputs {
     margin: 10px;
+    width: 270px;
   }
 
 }
 
 @media(max-width:1030px){
   .login-section {
-    margin-left: 200px;
+    margin-right: 380px;
     margin-top: 50px;
-    height: 400px;
+    height: 450px;
+    width: 270px;
   }
 
   .email-spam {
-    margin-top: -10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: -6px;
     margin-bottom: 5px;
   }
 
   .inputs {
     margin: 7px;
+    width: 210px;
+  }
+  
+  .button-cadastrar {
+    margin-bottom: 5px;
   }
 }
 

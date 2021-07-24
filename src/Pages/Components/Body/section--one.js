@@ -1,6 +1,5 @@
 
 import { FaAngleDoubleDown } from 'react-icons/fa';
-import logo from '../../../assets/image/friday.png';
 import sectionTwoStyle from '../Styles/body.scss';
 import textStyle from '../Styles/texts.scss';
 
