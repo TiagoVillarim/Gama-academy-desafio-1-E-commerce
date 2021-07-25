@@ -9,8 +9,8 @@ funções do site => página de cadastro; página de produtos; página inicial d
 =>URL Link: https://my-timepiece.netlify.app .
 
 
-![image](https://user-images.githubusercontent.com/64990900/126820105-21e718c8-8923-4c40-90e3-28d11dcf5afa.png)
-![image](https://user-images.githubusercontent.com/64990900/126722931-d1b222b8-15c9-44a5-bb22-010b0a9e531c.png)
-![image](https://user-images.githubusercontent.com/64990900/126722942-116a8d5e-fd8d-40eb-8efb-b05d1125f762.png)
-![image](https://user-images.githubusercontent.com/64990900/126722955-55ce2317-0f59-4553-a2d5-26fc37acd1a0.png)
+![image](https://user-images.githubusercontent.com/64990900/126885434-9ec461ff-1b1b-402b-92f4-3ed530df6940.png)
+![image](https://user-images.githubusercontent.com/64990900/126885439-ce614fd6-3074-4ba2-a740-9f4fd3c3a60f.png)
+![image](https://user-images.githubusercontent.com/64990900/126885450-1ed4c4b4-7c12-42c8-bd3e-855da32531cc.png)
+![image](https://user-images.githubusercontent.com/64990900/126885454-1bba18c2-50b1-4e82-bf9d-1445979e8407.png)
 
