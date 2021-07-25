@@ -37,7 +37,7 @@ export default function SectionThree({callback, setProdutos}){
                - De: R$559,99 -<br/><br/>
                <strong className="promotional-price">- Por: R$339,39 -</strong>
               </p>
-              <a id="relogio-modelo-5" name="relogio-5" className="add-cart-1" onClick={event => addCart(event)}>adicionar ao carrinho</a>
+              <a id="relogio-modelo-5" name="Rolex-gmt-master-root-beer" className="add-cart-1" onClick={event => addCart(event)}>adicionar ao carrinho</a>
             </div>
             
             <div data-aos="fade-up" data-aos-duration="1200"  className="div-section2">
@@ -46,7 +46,7 @@ export default function SectionThree({callback, setProdutos}){
                 - De: R$559,99 -<br/><br/>
                 <strong className="promotional-price">- Por: R$339,39 -</strong>
               </p>
-              <a id="relogio-modelo-6" name="relogio-6" className="add-cart-2" onClick={event => addCart(event)}>adicionar ao carrinho</a>             
+              <a id="relogio-modelo-6" name="Rolex-deep-sea" className="add-cart-2" onClick={event => addCart(event)}>adicionar ao carrinho</a>             
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1500"  className="div-section3">
@@ -55,7 +55,7 @@ export default function SectionThree({callback, setProdutos}){
                - De: R$559,99 -<br/><br/>
                <strong className="promotional-price">- Por: R$339,39 -</strong>
               </p>
-              <a id="relogio-modelo-7" name="relogio-7" className="add-cart-3" onClick={event => addCart(event)}>adicionar ao carrinho</a>         
+              <a id="relogio-modelo-7" name="Rolex-date-just" className="add-cart-3" onClick={event => addCart(event)}>adicionar ao carrinho</a>         
             </div>
 
             <div data-aos="fade-up" data-aos-duration="1700"  className="div-section4">
@@ -64,7 +64,7 @@ export default function SectionThree({callback, setProdutos}){
                 - De: R$559,99 -<br/><br/>
                 <strong className="promotional-price">- Por: R$339,39 -</strong>
               </p>
-              <a id="relogio-modelo-8" name="relogio-8" className="add-cart-4" onClick={event => addCart(event)}>adicionar ao carrinho</a> 
+              <a id="relogio-modelo-8" name="Rolex-sky-dweller" className="add-cart-4" onClick={event => addCart(event)}>adicionar ao carrinho</a> 
             </div>
           </section>
 

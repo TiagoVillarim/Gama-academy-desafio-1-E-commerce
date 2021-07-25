@@ -37,7 +37,7 @@ export default function SectionTwo({callback, setProdutos}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-1" name="relogio-1" className="add-cart-1" onClick={event => addCart(event)}>adicionar ao carrinho</a>
+            <a id="relogio-modelo-1" name="Rolex-submariner-aço" className="add-cart-1" onClick={event => addCart(event)}>adicionar ao carrinho</a>
           </div>
           
           <div data-aos="fade-up" data-aos-duration="1200"  className="div-section2">
@@ -46,7 +46,7 @@ export default function SectionTwo({callback, setProdutos}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-2" name="relogio-2" className="add-cart-2" onClick={event => addCart(event)}>adicionar ao carrinho</a>            
+            <a id="relogio-modelo-2" name="Rolex-yatch-master-II" className="add-cart-2" onClick={event => addCart(event)}>adicionar ao carrinho</a>            
           </div>
 
           <div data-aos="fade-up" data-aos-duration="1500"  className="div-section3">
@@ -55,7 +55,7 @@ export default function SectionTwo({callback, setProdutos}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-3" name="relogio-3" className="add-cart-3" onClick={event => addCart(event)}>adicionar ao carrinho</a>     
+            <a id="relogio-modelo-3" name="Rolex-explorer" className="add-cart-3" onClick={event => addCart(event)}>adicionar ao carrinho</a>     
           </div>
 
           <div data-aos="fade-up" data-aos-duration="1700"  className="div-section4">
@@ -64,7 +64,7 @@ export default function SectionTwo({callback, setProdutos}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-4" name="relogio-4" className="add-cart-4" onClick={event => addCart(event)}>adicionar ao carrinho</a> 
+            <a id="relogio-modelo-4" name="Rolex-oyster" className="add-cart-4" onClick={event => addCart(event)}>adicionar ao carrinho</a> 
           </div>
         </section>
         <div>
