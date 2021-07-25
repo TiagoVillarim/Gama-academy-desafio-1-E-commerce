@@ -8,14 +8,18 @@ import catalogoStyle from '../Styles/catalogo.scss';
 
 
 
-export default function SectionTwo({cart, callback}){
+export default function SectionTwo({cart, callback, produtos, setProdutos}){
 
 
     const addCart = (event) => {
       console.log(event.target.id)
       callback(1)
       const indice = event.target.id.slice(-1)[0]
-      localStorage.setItem(`Produto:${indice}`, JSON.stringify(event.target.id))
+      const payloadProduto = {
+        modelo: indice,
+        nome: event.target.name
+      }
+      setProdutos(payloadProduto)
       alert("você adicionou um produto ao carrinho")
     }
 
@@ -33,7 +37,7 @@ export default function SectionTwo({cart, callback}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-1" className="add-cart-1" onClick={event => addCart(event)}>adicionar ao carrinho</a>
+            <a id="relogio-modelo-1" name="relogio-1" className="add-cart-1" onClick={event => addCart(event)}>adicionar ao carrinho</a>
           </div>
           
           <div data-aos="fade-up" data-aos-duration="1200"  className="div-section2">
@@ -42,7 +46,7 @@ export default function SectionTwo({cart, callback}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-2" className="add-cart-2" onClick={event => addCart(event)}>adicionar ao carrinho</a>            
+            <a id="relogio-modelo-2" name="relogio-2" className="add-cart-2" onClick={event => addCart(event)}>adicionar ao carrinho</a>            
           </div>
 
           <div data-aos="fade-up" data-aos-duration="1500"  className="div-section3">
@@ -51,7 +55,7 @@ export default function SectionTwo({cart, callback}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-3" className="add-cart-3" onClick={event => addCart(event)}>adicionar ao carrinho</a>     
+            <a id="relogio-modelo-3" name="relogio-3" className="add-cart-3" onClick={event => addCart(event)}>adicionar ao carrinho</a>     
           </div>
 
           <div data-aos="fade-up" data-aos-duration="1700"  className="div-section4">
@@ -60,7 +64,7 @@ export default function SectionTwo({cart, callback}){
               - De: R$559,99 -<br/><br/>
               <strong className="promotional-price">- Por: R$339,39 -</strong>
             </p>
-            <a id="relogio-modelo-4" className="add-cart-4" onClick={event => addCart(event)}>adicionar ao carrinho</a> 
+            <a id="relogio-modelo-4" name="relogio-4" className="add-cart-4" onClick={event => addCart(event)}>adicionar ao carrinho</a> 
           </div>
         </section>
         <div>
