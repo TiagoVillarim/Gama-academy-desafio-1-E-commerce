@@ -8,7 +8,7 @@ import catalogoStyle from '../Styles/catalogo.scss';
 
 
 
-export default function SectionTwo({cart, callback, produtos, setProdutos}){
+export default function SectionTwo({callback, setProdutos}){
 
 
     const addCart = (event) => {

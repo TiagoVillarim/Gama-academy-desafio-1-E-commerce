@@ -29,7 +29,7 @@ export default function Home(){
     <div>
       <SectionOne cart={counter} callback={changeCart}/>
       <SectionTwo cart={counter} callback={changeCart} produtos={produtos} setProdutos={changeProdutos}/>
-      <SectionThree cart={counter} callback={changeCart}/>
+      <SectionThree cart={counter} callback={changeCart} produtos={produtos} setProdutos={changeProdutos}/>
       <LoginPage/>  
     </div>
   )
