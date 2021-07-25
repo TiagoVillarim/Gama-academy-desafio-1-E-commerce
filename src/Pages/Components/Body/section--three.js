@@ -17,7 +17,6 @@ export default function SectionThree({callback, setProdutos}){
       nome: event.target.name
     }
     setProdutos(payloadProduto)
-    alert("você adicionou um produto ao carrinho")
   }
 
 
