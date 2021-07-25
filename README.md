@@ -2,9 +2,9 @@ This is a project made during the hiring coders by gama academy, it is an E-comm
 
 Projeto feito durante o hiring coders da gama academy, este é uma página web de E-commerce de relógios.
 
-Functions of the web site => sign in page; products page, promo black friday landing page;
+Functions of the web site => sign in page; cart, promo black friday landing page;
 
-funções do site => página de cadastro; página de produtos; página inicial de promoção black friday;
+funções do site => página de cadastro; carrinho; página inicial de promoção black friday;
 
 =>URL Link: https://my-timepiece.netlify.app .
 
